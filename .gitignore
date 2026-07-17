@@ -1,0 +1,26 @@
+# Backend (Maven / Spring Boot)
+backend/target/
+backend/data/
+!**/src/main/**/target/
+!**/src/test/**/target/
+*.mv.db
+
+# Frontend (Vite / Node)
+frontend/node_modules/
+frontend/dist/
+npm-debug.log*
+
+# Local data
+data/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
