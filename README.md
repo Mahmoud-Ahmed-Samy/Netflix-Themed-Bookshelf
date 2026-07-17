@@ -21,7 +21,7 @@ cd backend
 ./mvnw spring-boot:run
 ```
 
-Runs on `http://localhost:8080`. Data is stored in an H2 database file under `~/.bookshelf/data/`.
+Runs on `http://localhost:8080`.
 
 ### Frontend
 
