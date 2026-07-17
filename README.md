@@ -44,7 +44,3 @@ Runs on `http://localhost:5173` (Vite's default) and talks to the backend API.
 | DELETE | `/api/books/{id}`  | Delete a book           |
 
 Book fields: `title`, `author`, `genre`, `year`, `coverUrl`, `foundOnline`, `wasEdited`. Titles are validated as required, unique per author/year, with a publication year between 1450 and 2026.
-
-## Notes
-
-`Plan.md` documents the original build plan this project was developed against, cycle by cycle.
